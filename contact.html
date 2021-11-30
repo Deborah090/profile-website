@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<title>contact</title>
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header class="contact-text">
+	<div class="main-container">
+		<div class="logo">
+         <a href="index.html"><h3>Deborah</h3></a>
+		</div>
+		<button class="menu-btn">
+			<i class="fas fa-bars fa-2x"></i>
+		</button>
+		<div class="btn-head">
+			<nav class="menu">
+				<a href="index.html">home</a>
+				<a href="about.html">about</a>
+				<a href="portfolio.html">portfolio</a>
+				<a href="contact.html">contact</a>
+			</nav>
+		</div>
+	</div>
+</header>
+<div class="contact-banner">
+	<h1>Contact Me</h1>
+	<!-- <p>welcome to my site</p> -->
+</div>
+<div class="group">
+	<h3>get In Touch</h3>
+</div>	
+<div class="contact-page">
+	<div class="form-container">
+		<form  name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+			<div class="form-group">
+				<input type="text" name="fullname" placeholder="YOUR NAME">
+			</div>
+			<div class="form-group">
+				<input type="email" name="email" placeholder="YOUR EMAIL">
+			</div>
+			<div class="form-group">
+				<input type="number" name="phonenumber" placeholder="YOUR NUMBER">
+			</div>
+			<div class="form-group" style="height: 120px;">
+			<textarea style="height:120px" name="message" placeholder="MESSAGE"></textarea>
+			</div>
+			<div class="form-group">
+			<button class="c-btn">Summit NOW</button>
+			</div>
+		</form>
+	</div>
+	<div class="form-head">
+	<span>
+		<span class="v-icon"><i class="fas fa-phone"></i></span>
+		<span class="tel">09042576732</span>
+		</span>
+		<span>
+			<span class="v-icon"><i class="fab fa-github "></i></span>
+			<a href="www.github.com/ufomadudeborah" target="_blank"><span class="tel">ufomaduamarachi</span></a>
+		</span>
+	 <span style="line-height: 4px;">
+	 	<span class="v-icon"><i class="fab fa-facebook"></i></span>
+	 	<a href="www.facebook.com/deborah simon" target="_blank"><span class="tel">deborah simon</span></a>
+	 </span>
+	 <span>
+	 	<span class="v-icon"><i class="fas fa-envelope"></i></span>
+	 	<a href="www.email/ufomaduamarachi" target="_blank"><span class="tel">ufomadu amarachi</span></a>
+	 </span>
+  </div>
+</div>
+<div class="footer">
+	<div>
+		<ul class="dive">
+	      <li><i class="fab fa-github"></i></li>
+	      	<li><i class="fab fa-facebook"></i></li>
+	      	<li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-linkedin"></i></li>
+	      
+		</ul>
+	</div>
+
+	<div>
+		<p>Copyright&copy;Ufomadu Amarachi Deborah all right reserved 2021</p>
+	</div>
+</div>
+
+</div>
+<script type="text/javascript">
+// 	document.querySelector("form").addEventListener("submit", handleSubmit);
+
+// const handleSubmit = (e) => {
+//   e.preventDefault()
+//   let myForm = document.getElementById('contact');
+//   let formData = new FormData(myForm)
+//   fetch('/', {
+//     method: 'POST',
+//     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+//     body: new URLSearchParams(formData).toString()
+//   }).then(() => console.log('Form successfully submitted')).catch((error) =>
+//     alert(error))
+// }
+
+</script>
+</body>
+</html>
+<script type="text/javascript">
+	const btn = document.getElementById(".menu-btn");
+	document.querySelector(".menu-btn").addEventListener("click",()=> document.querySelector(".menu").classList.toggle("show"));
+
+</script>
